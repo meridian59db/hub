@@ -30,6 +30,9 @@ header{
 .content{
     background-color: transparent;
     padding: 20px;
+    display: flex;
+    display: flex;
+    justify-content: center;
 }
 
 .content-tabs{
@@ -39,11 +42,14 @@ header{
     justify-content: center;
     align-items: flex-start;
     align-content: center;
+    gap: 20px;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+    }
 }
 
 .tab{
-    margin-left: 10px;
-    margin-right: 10px;
     cursor: pointer;
     display: flex;
     align-items: flex-start;
