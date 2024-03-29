@@ -1,0 +1,129 @@
+* {
+    background-color: #212121;
+}
+
+body{
+    margin: 0px;
+    background-image: url('../img/bkg.gif'); /* Substitua 'caminho/do/seu/gif.gif' pelo caminho do seu GIF */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header{
+    height: 130px;
+    margin-bottom: -20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 60px;
+}
+
+#logo{
+    height: 100px;
+    background-color: transparent;
+}
+
+.content{
+    background-color: transparent;
+    padding: 20px;
+}
+
+.content-tabs{
+    background-color: transparent;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.tab{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(49, 49, 49, 0.5);
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(80, 80, 80);
+    border-width: 0.1px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.tab:hover{
+    border-color: white;
+    background-color: #3a3a3a;
+}
+
+.tab p{
+    color: white;
+    margin: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: transparent;
+}
+
+.tab-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 0px;
+    width: 300px;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 0.1px;
+    border-color:#525252;
+
+}
+
+.tab-description{
+    width: 300px;
+}
+
+.tab img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: #313131;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer p, footer a{
+    background-color: transparent;
+    margin: 0;
+}
+
+footer a{
+    color: white;
+    text-decoration:underline;
+}
+
+footer a i{
+    font-size: 18px;
+    background-color: transparent;
+}
