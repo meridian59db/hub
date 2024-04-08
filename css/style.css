@@ -44,7 +44,7 @@ header{
     align-content: center;
     gap: 20px;
 
-    @media (max-width: 900px) {
+    @media (max-width: 1124px) {
         flex-direction: column;
     }
 }
